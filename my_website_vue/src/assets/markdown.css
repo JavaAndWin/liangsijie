@@ -1,0 +1,92 @@
+
+
+/* 让文章更有层次感 */
+h1 { font-size: 2em; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
+h2 { font-size: 1.8em; border-left: 4px solid #ccc; padding-left: 8px; }
+p { line-height: 1.6; font-size: 16px; white-space: pre-line;}
+
+root {
+    --user-chat-width: 70%;
+    --sidebar-inline-padding: 12px;
+    --sidebar-mask: linear-gradient(90deg, #000, #000 84%, transparent 89%, transparent);
+    --white: #fff;
+    --black: #000;
+    --gray-50: #f9f9f9;
+    --gray-100: #ececec;
+    --gray-200: #e3e3e3;
+    --gray-300: #cdcdcd;
+    --gray-400: #b4b4b4;
+    --gray-500: #9b9b9b;
+    --gray-600: #676767;
+    --gray-700: #424242;
+    --gray-750: #2f2f2f;
+    --gray-800: #212121;
+    --gray-900: #171717;
+    --gray-950: #0d0d0d;
+    --red-500: #ef4444;
+    --red-700: #b91c1c;
+    --brand-purple: #ab68ff;
+    --yellow-900: #927201;
+}
+/* 代码块美化 */
+pre {
+    line-height: 20px;
+    --main-surface-background: hsla(0, 0%, 100%, .95);
+    --message-surface: hsla(0, 0%, 91%, .5);
+    --composer-surface: var(--message-surface);
+    --dot-color: var(--black);
+    --text-primary: var(--gray-950);
+    --text-primary-inverse: var(--gray-100);
+    --content-primary: #01172b;
+    --content-secondary: #44505b;
+    --text-secondary: #5d5d5d;
+    --text-tertiary: var(--gray-400);
+    --text-quaternary: var(--gray-300);
+    --tag-blue: #08f;
+    --tag-blue-light: #0af;
+    --text-error: #f93a37;
+    --text-danger: var(--red-500);
+    --text-placeholder: rgba(0, 0, 0, .7);
+    --surface-error: 249 58 55;
+    --border-xlight: rgb(0 0 0 / 5%);
+    --border-light: rgba(0, 0, 0, .1);
+    --border-medium: rgba(0, 0, 0, .15);
+    --border-heavy: rgba(0, 0, 0, .2);
+    --border-xheavy: rgba(0, 0, 0, .25);
+    --hint-text: #08f;
+    --hint-bg: #b3dbff;
+    --border-sharp: rgb(0 0 0 / 5%);
+    --icon-secondary: #676767;
+    --main-surface-primary: var(--white);
+    --main-surface-primary-inverse: var(--gray-800);
+    --main-surface-secondary: var(--gray-50);
+    --main-surface-secondary-selected: rgba(0, 0, 0, .1);
+    --main-surface-tertiary: var(--gray-100);
+    --sidebar-surface-primary: var(--gray-50);
+    --sidebar-surface-secondary: var(--gray-100);
+    --sidebar-surface-tertiary: var(--gray-200);
+    --sidebar-title-primary: rgba(40, 40, 40, .5);
+    --sidebar-surface: #fcfcfc;
+    --sidebar-body-primary: #0d0d0d;
+    --sidebar-icon: #7d7d7d;
+    --surface-hover: rgba(0, 0, 0, .07);
+    --link: #2964aa;
+    --link-hover: #749ac8;
+    --selection: #007aff;
+}
+code {
+    font-family: 'Courier New', monospace;
+    background: #eee;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* 图片自适应 */
+img { max-width: 100%; height: auto; border-radius: 8px; }
+
+.blog-box{
+    width: 750px;
+    margin: auto;
+
+}
+
