@@ -3,7 +3,7 @@ node_modules
 /dist
 auto.*
 
-.zip
+*.zip
 # local env files
 .env.local
 .env.*.local
